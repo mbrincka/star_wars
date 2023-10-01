@@ -1,0 +1,19 @@
+.card-header {
+    height: 300px;
+    padding: 0 !important;
+    overflow: hidden;
+
+    .card-img-top {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .card-title {
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+        text-shadow: 0 0 15px #000;
+        line-height: 270px;
+        text-transform: uppercase;
+    }
+}
